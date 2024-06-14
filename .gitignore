@@ -1,2 +1,5 @@
 *.exe
 /recursion *.exe
+/recursion/function *.exe
+/trees *.exe
+/head *.exe
