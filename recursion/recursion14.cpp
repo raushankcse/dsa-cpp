@@ -1,7 +1,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-
+// print any one subsequence whose sum is k
 bool printS(int ind, vector<int> &ds, int s, int sum, int arr[], int n){
   if(ind == n){
     if(s==sum){
@@ -28,6 +28,7 @@ bool printS(int ind, vector<int> &ds, int s, int sum, int arr[], int n){
 
 
 
+// print all subesequence whose sum is k
 // void printS(int ind, vector<int> &ds, int s, int sum, int arr[], int n){
 //   if(ind == n){
 //     if(s == sum){
